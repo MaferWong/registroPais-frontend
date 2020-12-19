@@ -1,6 +1,6 @@
+import { Nav } from '@fluentui/react';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Nav } from '@fluentui/react';
 import { Pais } from '../pais/pais';
 import { Departamento } from '../departamento/departamento';
 import './container.css';
@@ -25,14 +25,14 @@ export const Container = () => {
                     links: [{
                         name: 'Paises',
                         url: '/containers/paises',
-                        icon: 'UserFollowed',
-                        key: 'estudiantesNav',
+                        icon: 'World',
+                        key: 'paisesNav',
                     },
                     {
                         name: 'Departamentos',
                         url: '/containers/departamentos',
-                        icon: 'Telemarketer',
-                        key: 'profesoresNav',
+                        icon: 'World',
+                        key: 'departamentosNav',
                     },]
                 }]}
             />
